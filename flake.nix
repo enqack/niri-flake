@@ -85,7 +85,7 @@
           systemdLibs,
           eudev,
           pipewire,
-          libgbm,
+          libgbm ? true,
           libglvnd,
           seatd,
           libinput,
